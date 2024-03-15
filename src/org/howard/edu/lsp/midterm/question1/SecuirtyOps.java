@@ -2,7 +2,7 @@ package org.howard.edu.lsp.midterm.question1;
 
 public class SecuirtyOps {
 	/**
-	 * Encrypts a string with odd-index characters,
+	 * Encrypts a string with odd-index characters following the even-indexed characters,
 	 * ignoring any punctuation and whitespace.
 	 * 
 	 * @param text the text to encrypt
@@ -14,7 +14,7 @@ public class SecuirtyOps {
 			return "";
 		}
 		
-		//
+		// Using the StringBuilder class to manipulate the string
 		StringBuilder encryptedText = new StringBuilder();
 		StringBuilder evenCharacters = new StringBuilder();
 		StringBuilder oddCharacters = new StringBuilder();
